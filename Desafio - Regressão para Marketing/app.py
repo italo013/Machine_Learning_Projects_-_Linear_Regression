@@ -132,7 +132,7 @@ def update_graph(slope, intercept):
         title="Demonstração de Regressão Linear Simples",
         xaxis_title="Variável Independente (x)",
         yaxis_title="Variável Dependente (y)",
-        autosize=False,
+        autosize=True,
     )
     return fig
 
